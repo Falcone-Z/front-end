@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+.contact-section{
+  background: url("bg.jpg") no-repeat center;/*背景缩放居中 不平铺*/
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+
+.border{
+  width: 100%;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;/*设置边框阴影样式*/
+}
+
+textarea.contact-form-text{
+  resize: none;/*用户不能自己拖动调整大小，隐藏缩放框*/
+  overflow: hidden;/*隐藏纵向滚动条*/
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;/*右浮动*/
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;/*设置按钮圆角*/
+  cursor: pointer;/*设置鼠标指针为手状*/
+  transition: 0.5s;/*渐变*/
+}
+
+.contact-form-btn:hover{
+  background: #2980b9;/*鼠标移上去之后改变背景颜色*/
+}
